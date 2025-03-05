@@ -1,5 +1,6 @@
-# PBertKla
-a protein large language model for predicting human lysine lactylation sites
+# PBertKla: a protein large language model for predicting human lysine lactylation sites
+
+Lactylation is a newly discovered type of post-translational modification, primarily occurring on lysine (K) residues of both histones and non-histones to exert diverse effects on target proteins. Here, we proposed a novel human Kla site predictor (named PBertKla) through curating a reliable benchmark dataset with proper sample length and sequence identity threshold to train a protein large language model with optimal hyperparameters. Extensive experimental results consistently demonstrated that our model possessed robust human Kla site prediction ability, achieving an AUC (area under receiver operating characteristic curve) value of over 0.880 on the independent validation data. Feature visualization analysis further validated the effectiveness of in feature learning and representation from Kla sequences. Moreover, we benchmarked PBertKla against other cutting-edge models on an independent testing dataset from different sources, highlighting its superiority and transferability.
 
 
 # Usage:
@@ -21,4 +22,4 @@ lxml (4.3.2)
 
 pyfaidx (0.5.8)
 
-PBertKla is developed based on the ProteinBERT(https://github.com/nadavbra/protein_bert)
+PBertKla is developed based on the ProteinBERT (https://github.com/nadavbra/protein_bert).
